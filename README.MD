@@ -4,6 +4,8 @@ When we setup EKS service of LoadBalancer type, by default it creates Classic EL
 
 Earlier every Ingress resource was creating one ALB which will give us huge cost. Later on users request AWS gave us options to maintain single Ingress controller that can be used my multiple projects.
 
+![alt text](ingress.jpg)
+
 #### Steps
 
 Reference: https://catalog.workshops.aws/eks-immersionday/en-US/services-and-ingress/multi-ingress
